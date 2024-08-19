@@ -1,0 +1,52 @@
+.main-slider-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-slider-container .slick-slider img {
+  width: 100%;
+  height: auto;
+}
+
+.thumbnails-slider-container {
+  width: 80vw;
+  margin: 0 auto;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  .slick-slider {
+    .slick-list {
+      background-color: hsla(0, 0%, 100%, 0.4);
+      backdrop-filter: blur(20px);
+      .slick-track {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+    }
+    .thumbnails-image {
+      max-width: 200px;
+      height: auto;
+      padding: 10px;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 3 / 2;
+    }
+  }
+}
+
+.bib-information {
+  .bib-item {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // width: auto;
+    // padding: 10px;
+    // background-color: #f9f9f9;
+    // border: 1px solid #ddd;
+    // border-radius: 5px;
+    // text-align: center;
+  }
+}
